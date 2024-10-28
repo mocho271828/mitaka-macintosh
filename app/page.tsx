@@ -36,12 +36,27 @@ export default function Home() {
           </div>
         </section>
 
-        {/* はじめに */}
-        <section className="mb-10 pb-4 border-b-2 text-white">
+        {/* はじめに - Updated with repository link */}
+        <section className="mb-10 pb-4 border-b-2">
           <h2 className="text-2xl md:text-3xl font-extrabold text-white mb-8">はじめに</h2>
           <div className="space-y-4 text-white">
-            このページは私のGithubリポジトリーから作成しております
-            ご覧になられたい方はこちらから
+            <p>
+              このページは私のGithubリポジトリーから作成しております。
+              ご覧になられたい方は
+              <a 
+                href="https://github.com/mocho271828/mitaka-macintosh" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-400 hover:text-blue-300 underline ml-1"
+              >
+                こちらから
+              </a>
+              アクセスしてください。
+            </p>
+            <p className="text-gray-300">
+              リポジトリーには、このガイドの最新版やソースコード、追加のリソースが含まれています。
+              問題の報告や改善の提案は、GitHubのIssuesでお願いいたします。
+            </p>
           </div>
         </section>
 
