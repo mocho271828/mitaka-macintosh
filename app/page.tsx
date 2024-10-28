@@ -41,8 +41,7 @@ export default function Home() {
           <div className="space-y-4 text-white">
             <p>
               このページは私のGithubリポジトリーから作成しております。</br>
-              ご覧になられたい方はこちらの
-              <a href= "https://github.com/mocho271828/mitaka-macintosh" >リンク</a>から</br>
+              ご覧になられたい方はこちらのリンクから
             </p>
           </div>
         </section>
