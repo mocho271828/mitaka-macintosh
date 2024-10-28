@@ -40,8 +40,13 @@ export default function Home() {
           <h2 className="text-2xl md:text-3xl font-extrabold text-white mb-8">はじめに</h2>
           <div className="space-y-4 text-white">
             <p>
-              このページは私のGithubリポジトリーから作成しております。</br>
-              ご覧になられたい方はこちらのリンクから
+              このページは私のGithubリポジトリーから作成しております</br>
+              ご覧になられたい方はこちらの
+              <a href="" aria-label="mitaka-macintosh_repository">
+                  <リンク/>
+                </a>
+            から
+            
             </p>
           </div>
         </section>
