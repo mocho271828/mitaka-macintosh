@@ -54,8 +54,16 @@ export default function Home() {
               アクセスしてください。
             </p>
             <p className="text-gray-300">
-              リポジトリーには、このガイドの最新版やソースコード、追加のリソースが含まれています。
-              問題の報告や改善の提案は、GitHubのIssuesでお願いいたします。
+              また,私のポートフォリオはGitHubにて公開中です。
+              <a 
+                href="https://mocho271828.github.io" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-400 hover:text-blue-300 underline ml-1"
+              >
+                こちら
+              </a>
+              のよりご覧ください。
             </p>
           </div>
         </section>
