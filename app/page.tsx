@@ -39,7 +39,7 @@ export default function Home() {
         <section className="mb-10 pb-4 border-b-2 text-white">
           <h2 className="text-2xl md:text-3xl font-extrabold text-white mb-8">はじめに</h2>
           <div className="space-y-4 text-white">
-            このページは私のGithubリポジトリーから作成しております</br>
+            このページは私のGithubリポジトリーから作成しております
             ご覧になられたい方はこちらから
           </div>
         </section>
