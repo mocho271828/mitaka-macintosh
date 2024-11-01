@@ -112,9 +112,18 @@ export default function Home() {
             <h3 className="text-xl font-bold bg-gray-800 p-4 rounded-lg">2. Mitakaのダウンロード</h3>
             <div className="bg-gray-900 p-6 rounded-lg space-y-4">
               <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>国立天文台のウェブサイトにアクセス</li>
+                <li>国立天文台の
+                  <a 
+                  href="https://github.com/mocho271828/mitaka-macintosh" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="text-blue-400 hover:text-blue-300 underline ml-1"
+                  >
+                  ウェブサイト
+                  </a>
+                  にアクセス</li>
                 <li>Mitakaの最新版Windows用インストーラー（.exe）をダウンロード</li>
-                <li>ダウンロードしたファイルを分かりやすい場所に保存</li>
+                <li>ダウンロードしたファイルを分かりやすい場所(どこでもOK)に保存</li>
               </ul>
             </div>
           </div>
