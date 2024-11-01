@@ -76,12 +76,27 @@ export default function Home() {
           <div className="space-y-6 mb-12">
             <h3 className="text-xl font-bold bg-gray-800 p-4 rounded-lg">1. Wineskinの準備</h3>
             <div className="bg-gray-900 p-6 rounded-lg space-y-4">
-              <h4 className="text-lg font-semibold">1-1. Wineskin Winery のダウンロード</h4>
+              <h4 className="text-lg font-semibold">1-1. Wineskin Winery のダウンロード(Without Homebrew)</h4>
               <ul className="list-disc list-inside space-y-2 ml-4">
                 <li>Wineskin公式サイトから最新版のWineskin Wineryをダウンロード</li>
                 <li>ダウンロードしたdmgファイルを開き、Applicationsフォルダにドラッグ＆ドロップ</li>
               </ul>
-
+              <h4 className="text-lg font-semibold">1-1. Wineskin Winery のダウンロード(With Homebrew)</h4>
+              <ul className="list-disc list-inside space-y-2 ml-4">
+                <li>
+                  <a 
+                    href="https://brew.sh/" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-blue-400 hover:text-blue-300 underline ml-1"
+                  >
+                  こちら
+                  </a>
+                  のリンクからHomebrewの公式サイトに飛び,中央部にあるコードをターミナルにペースト</li>
+                <li>Homebrewのセットアップ完了後,以下のコードを順に実行</li>
+                <li>brew tap gcenx/wine</li>
+                <li>brew install --no-quarantine unofficial-wineskin</li>
+              </ul>
               <h4 className="text-lg font-semibold mt-6">1-2. Wineskin Winery の初期設定</h4>
               <ul className="list-disc list-inside space-y-2 ml-4">
                 <li>Wineskin Wineryを起動</li>
